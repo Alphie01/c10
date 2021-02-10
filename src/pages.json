@@ -2,92 +2,538 @@
     {
         "id":0,
         "topicId" : "Python",
-        "campInfo" : {
-            "desc": "Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden olan Numpy, Pandas ve Matplotlib'i öğretmeyi amaçlıyoruz",
-            "firstAdd" : {
+        "desc": "Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden olan Numpy, Pandas ve Matplotlib'i öğretmeyi amaçlıyoruz",
+        "img":"",
+        "campInfo" : [
+            
+            {   
+                "icon":"fab fa-wpbeginner fa-5x",
                 "text":"Başlangıç dostu",
                 "subText" : "Bu kamp'da, Python temellerinden başlayıp, ünlü Python kütüphanelerini ele alacak."
             },
-            "secondAdd" : {
+            {   
+                "icon":"fas fa-comments fa-5x",
                 "text":"6 Etkinlik",
                 "subText" : "27 Şubat - 11 Mart 2021 tarihleri arasında yayınlanacak olan 6 etkinlik olacak."
             },
-            "thirdAdd" : {
+            {   
+                "icon":"fas fa-certificate fa-5x",
                 "text":"Başarı sertifikası",
                 "subText" : "Bu kampı başarı ile tamamlayan kişilere Google Developers onaylı sertifika verilecek."
             }
-        },
-        "speakers":{
-
-        },
-        "sponsor":{
-
-        },
-        "partner":{
+        ],
+        "speaker" : [
             
-        },
-        "contact":{
+            {   
+                "img":"./img/erkek.jpg",
+                "name":"John Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Jenie Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Sierra Doe",
+                "title" : "Python Developer"
+            },{   
+                "img":"./img/erkek.jpg",
+                "name":"John Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Jenie Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Sierra Doe",
+                "title" : "Python Developer"
+            }
+        ],
+        "sponsor":[
             
-        }
+            {   
+                "id": 1,
+                "name": "Google Developers",
+                
+                "link":"/img/Sponsor logoları/gdev.png",
+                "website":"https://developers.google.com/"
+            },
+            
+            {
+            "id": 2,
+            "name": "ServerPlus",
+            
+            "link":"/img/Sponsor logoları/server2.png",
+            "website":"https://www.serverplus.com.tr/"
+            },
+            {
+            "id": 3,
+            "name": "Pusula",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png",
+            "website":"https://www.pusulakitaplik.com/"
+            },
+            {
+            "id": 4,
+            "name": "Domino's",
+            
+            "link":"/img/Sponsor logoları/Dominos.png",
+            "website":"#"
+            },
+            {
+            "id": 5,
+            "name": "Codit Cloud",
+            
+            "link":"/img/Sponsor logoları/Condit.png",
+            "website":"http://www.coditcloud.com/"
+            
+            }
+            ,
+            {
+            "id": 6,
+            "name": "Lodos",
+            
+            "link":"/img/Sponsor logoları/Lodos.png",
+            "website":"#"
+            }
+        ],
+        "partner":[
+            
+            {   
+                "id": 1,
+                "name": "Google Developers",
+                
+                "link":"/img/Sponsor logoları/gdev.png",
+                "website":"https://developers.google.com/"
+            },
+            
+            {
+            "id": 2,
+            "name": "ServerPlus",
+            
+            "link":"/img/Sponsor logoları/server2.png",
+            "website":"https://www.serverplus.com.tr/"
+            },
+            {
+            "id": 3,
+            "name": "Pusula",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png",
+            "website":"https://www.pusulakitaplik.com/"
+            },
+            {
+            "id": 4,
+            "name": "Domino's",
+            
+            "link":"/img/Sponsor logoları/Dominos.png",
+            "website":"#"
+            },
+            {
+            "id": 5,
+            "name": "Codit Cloud",
+            
+            "link":"/img/Sponsor logoları/Condit.png",
+            "website":"http://www.coditcloud.com/"
+            
+            }
+            ,
+            {
+            "id": 6,
+            "name": "Lodos",
+            
+            "link":"/img/Sponsor logoları/Lodos.png",
+            "website":"#"
+            }
+        ],
+        "contact":[
+            
+            {   
+                "id": 1,
+                "name": "fab fa-instagram fa-10x",
+                
+                "link":""
+
+            },
+            
+            {
+            "id": 2,
+            "name": "fab fa-facebook fa-10x",
+            
+            "link":"/img/Sponsor logoları/server2.png"
+            },
+            {
+            "id": 3,
+            "name": "fab fa-twitter fa-10x",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png"
+            },
+            {
+            "id": 4,
+            "name": "fab fa-linkedin fa-10x",
+            
+            "link":"/img/Sponsor logoları/Dominos.png"
+            }
+        ]
     },
     {
         "id":1,
         "topicId" : "AiSummit",
-        "campInfo" : {
-            "desc": "Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz.",
-            "firstAdd" : {
+        "desc":"Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz.",
+        "img":"",
+        "campInfo" : [
+                        
+            {
                 "text":"mantığı ve işleyişi",
                 "subText" : "Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz."
             },
-            "secondAdd" : {
+            {
                 "text":"6 Oturum",
                 "subText" : "Birbirinden değerli konuşmacıların sunum yapacağı 6 oturum"
             },
-            "thirdAdd" : {
+            {
                 "text":"Katılım Sertifikası",
                 "subText" : "5 oturuma katılan katılımcılara katılım sertifikası "
             }
-        },
-        "speakers":{
-
-        },
-        "sponsor":{
-
-        },
-        "partner":{
+        ],
+        "speaker" : [
             
-        },"contact":{
+            {   
+                "img":"./img/erkek.jpg",
+                "name":"John Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Jenie Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Sierra Doe",
+                "title" : "Python Developer"
+            },{   
+                "img":"./img/erkek.jpg",
+                "name":"John Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Jenie Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Sierra Doe",
+                "title" : "Python Developer"
+            }
+        ],
+        "sponsor":[
             
-        }
+            {   
+                "id": 1,
+                "name": "Google Developers",
+                
+                "link":"/img/Sponsor logoları/gdev.png",
+                "website":"https://developers.google.com/"
+            },
+            
+            {
+            "id": 2,
+            "name": "ServerPlus",
+            
+            "link":"/img/Sponsor logoları/server2.png",
+            "website":"https://www.serverplus.com.tr/"
+            },
+            {
+            "id": 3,
+            "name": "Pusula",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png",
+            "website":"https://www.pusulakitaplik.com/"
+            },
+            {
+            "id": 4,
+            "name": "Domino's",
+            
+            "link":"/img/Sponsor logoları/Dominos.png",
+            "website":"#"
+            },
+            {
+            "id": 5,
+            "name": "Codit Cloud",
+            
+            "link":"/img/Sponsor logoları/Condit.png",
+            "website":"http://www.coditcloud.com/"
+            
+            }
+            ,
+            {
+            "id": 6,
+            "name": "Lodos",
+            
+            "link":"/img/Sponsor logoları/Lodos.png",
+            "website":"#"
+            }
+        ],
+        "partner":[
+            
+            {   
+                "id": 1,
+                "name": "Google Developers",
+                
+                "link":"/img/Sponsor logoları/gdev.png",
+                "website":"https://developers.google.com/"
+            },
+            
+            {
+            "id": 2,
+            "name": "ServerPlus",
+            
+            "link":"/img/Sponsor logoları/server2.png",
+            "website":"https://www.serverplus.com.tr/"
+            },
+            {
+            "id": 3,
+            "name": "Pusula",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png",
+            "website":"https://www.pusulakitaplik.com/"
+            },
+            {
+            "id": 4,
+            "name": "Domino's",
+            
+            "link":"/img/Sponsor logoları/Dominos.png",
+            "website":"#"
+            },
+            {
+            "id": 5,
+            "name": "Codit Cloud",
+            
+            "link":"/img/Sponsor logoları/Condit.png",
+            "website":"http://www.coditcloud.com/"
+            
+            }
+            ,
+            {
+            "id": 6,
+            "name": "Lodos",
+            
+            "link":"/img/Sponsor logoları/Lodos.png",
+            "website":"#"
+            }
+        ],
+        "contact":[
+            
+            {   
+                "id": 1,
+                "name": "fab fa-instagram fa-10x",
+                
+                "link":""
+
+            },
+            
+            {
+            "id": 2,
+            "name": "fab fa-facebook fa-10x",
+            
+            "link":"/img/Sponsor logoları/server2.png"
+            },
+            {
+            "id": 3,
+            "name": "fab fa-twitter fa-10x",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png"
+            },
+            {
+            "id": 4,
+            "name": "fab fa-linkedin fa-10x",
+            
+            "link":"/img/Sponsor logoları/Dominos.png"
+            }
+        ]
     },
     {
         "id":2,
         "topicId" : "Tensorflow",
-        "campInfo" : {
-            "desc": "Katılımcılarımızın AI & ML dünyasına giriş yapmasını ve belirli bir yeterliliğe ulaşmasını amaçlıyoruz.",
-            "firstAdd" : {
+        "desc":"Katılımcılarımızın AI & ML dünyasına giriş yapmasını ve belirli bir yeterliliğe ulaşmasını amaçlıyoruz.",
+        "img":"",
+        "campInfo" : [
+                        
+            {
                 "text":"Türkiye'de tanınan konuşmacılar",
                 "subText" : "Türkiye'de Yapay zeka ve Makine öğrenmesi alanında uzmanlaşmış konuşmacılar "
             },
-            "secondAdd" : {
+            {
                 "text":"9 Etkinlik",
                 "subText" : "23 Mart ve 8 nisan tarihleri arasında yapılacak olan etkinlikler"
             },
-            "thirdAdd" : {
+            {
                 "text":"Başarı Sertifikası",
                 "subText" : "Bu kampı başarı ile tamamlayan kişilere Google Developers onaylı sertifika verilecek."
             }
-        },
-        "speakers":{
-
-        },
-        "sponsor":{
-
-        },
-        "partner":{
+        ],
+        "speaker" : [
             
-        },"contact":{
+            {   
+                "img":"./img/erkek.jpg",
+                "name":"John Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Jenie Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Sierra Doe",
+                "title" : "Python Developer"
+            },{   
+                "img":"./img/erkek.jpg",
+                "name":"John Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Jenie Doe",
+                "title" : "Python Developer"
+            },
+            {   
+                "img":"./img/kadın.jpg",
+                "name":"Sierra Doe",
+                "title" : "Python Developer"
+            }
+        ],
+        "sponsor":[
             
-        }
+            {   
+                "id": 1,
+                "name": "Google Developers",
+                
+                "link":"/img/Sponsor logoları/gdev.png",
+                "website":"https://developers.google.com/"
+            },
+            
+            {
+            "id": 2,
+            "name": "ServerPlus",
+            
+            "link":"/img/Sponsor logoları/server2.png",
+            "website":"https://www.serverplus.com.tr/"
+            },
+            {
+            "id": 3,
+            "name": "Pusula",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png",
+            "website":"https://www.pusulakitaplik.com/"
+            },
+            {
+            "id": 4,
+            "name": "Domino's",
+            
+            "link":"/img/Sponsor logoları/Dominos.png",
+            "website":"#"
+            },
+            {
+            "id": 5,
+            "name": "Codit Cloud",
+            
+            "link":"/img/Sponsor logoları/Condit.png",
+            "website":"http://www.coditcloud.com/"
+            
+            }
+            ,
+            {
+            "id": 6,
+            "name": "Lodos",
+            
+            "link":"/img/Sponsor logoları/Lodos.png",
+            "website":"#"
+            }
+        ],
+        "partner":[
+            
+            {   
+                "id": 1,
+                "name": "Google Developers",
+                
+                "link":"/img/Sponsor logoları/gdev.png",
+                "website":"https://developers.google.com/"
+            },
+            
+            {
+            "id": 2,
+            "name": "ServerPlus",
+            
+            "link":"/img/Sponsor logoları/server2.png",
+            "website":"https://www.serverplus.com.tr/"
+            },
+            {
+            "id": 3,
+            "name": "Pusula",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png",
+            "website":"https://www.pusulakitaplik.com/"
+            },
+            {
+            "id": 4,
+            "name": "Domino's",
+            
+            "link":"/img/Sponsor logoları/Dominos.png",
+            "website":"#"
+            },
+            {
+            "id": 5,
+            "name": "Codit Cloud",
+            
+            "link":"/img/Sponsor logoları/Condit.png",
+            "website":"http://www.coditcloud.com/"
+            
+            }
+            ,
+            {
+            "id": 6,
+            "name": "Lodos",
+            
+            "link":"/img/Sponsor logoları/Lodos.png",
+            "website":"#"
+            }
+        ],
+        "contact":[
+            
+            {   
+                "id": 1,
+                "name": "fab fa-instagram fa-10x",
+                
+                "link":""
+
+            },
+            
+            {
+            "id": 2,
+            "name": "fab fa-facebook fa-10x",
+            
+            "link":"/img/Sponsor logoları/server2.png"
+            },
+            {
+            "id": 3,
+            "name": "fab fa-twitter fa-10x",
+            
+            "link":"/img/Sponsor logoları/pusula/pusula.png"
+            },
+            {
+            "id": 4,
+            "name": "fab fa-linkedin fa-10x",
+            
+            "link":"/img/Sponsor logoları/Dominos.png"
+            }
+        ]
     }
 ]
