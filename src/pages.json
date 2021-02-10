@@ -1,0 +1,93 @@
+[
+    {
+        "id":0,
+        "topicId" : "Python",
+        "campInfo" : {
+            "desc": "Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden olan Numpy, Pandas ve Matplotlib'i öğretmeyi amaçlıyoruz",
+            "firstAdd" : {
+                "text":"Başlangıç dostu",
+                "subText" : "Bu kamp'da, Python temellerinden başlayıp, ünlü Python kütüphanelerini ele alacak."
+            },
+            "secondAdd" : {
+                "text":"6 Etkinlik",
+                "subText" : "27 Şubat - 11 Mart 2021 tarihleri arasında yayınlanacak olan 6 etkinlik olacak."
+            },
+            "thirdAdd" : {
+                "text":"Başarı sertifikası",
+                "subText" : "Bu kampı başarı ile tamamlayan kişilere Google Developers onaylı sertifika verilecek."
+            }
+        },
+        "speakers":{
+
+        },
+        "sponsor":{
+
+        },
+        "partner":{
+            
+        },
+        "contact":{
+            
+        }
+    },
+    {
+        "id":1,
+        "topicId" : "AiSummit",
+        "campInfo" : {
+            "desc": "Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz.",
+            "firstAdd" : {
+                "text":"mantığı ve işleyişi",
+                "subText" : "Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz."
+            },
+            "secondAdd" : {
+                "text":"6 Oturum",
+                "subText" : "Birbirinden değerli konuşmacıların sunum yapacağı 6 oturum"
+            },
+            "thirdAdd" : {
+                "text":"Katılım Sertifikası",
+                "subText" : "5 oturuma katılan katılımcılara katılım sertifikası "
+            }
+        },
+        "speakers":{
+
+        },
+        "sponsor":{
+
+        },
+        "partner":{
+            
+        },"contact":{
+            
+        }
+    },
+    {
+        "id":2,
+        "topicId" : "Tensorflow",
+        "campInfo" : {
+            "desc": "Katılımcılarımızın AI & ML dünyasına giriş yapmasını ve belirli bir yeterliliğe ulaşmasını amaçlıyoruz.",
+            "firstAdd" : {
+                "text":"Türkiye'de tanınan konuşmacılar",
+                "subText" : "Türkiye'de Yapay zeka ve Makine öğrenmesi alanında uzmanlaşmış konuşmacılar "
+            },
+            "secondAdd" : {
+                "text":"9 Etkinlik",
+                "subText" : "23 Mart ve 8 nisan tarihleri arasında yapılacak olan etkinlikler"
+            },
+            "thirdAdd" : {
+                "text":"Başarı Sertifikası",
+                "subText" : "Bu kampı başarı ile tamamlayan kişilere Google Developers onaylı sertifika verilecek."
+            }
+        },
+        "speakers":{
+
+        },
+        "sponsor":{
+
+        },
+        "partner":{
+            
+        },"contact":{
+            
+        }
+    }
+]
