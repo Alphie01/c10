@@ -3,7 +3,7 @@
         "id":0,
         "topicId" : "Python",
         "desc": "Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden olan Numpy, Pandas ve Matplotlib'i öğretmeyi amaçlıyoruz",
-        "img":"",
+        "img":"./img/python.png",
         "campInfo" : [
             
             {   
@@ -22,6 +22,42 @@
                 "subText" : "Bu kampı başarı ile tamamlayan kişilere Google Developers onaylı sertifika verilecek."
             }
         ],
+
+        "events" : [
+            
+            {   
+                "speakers":"Python Temelleri #1",
+                "date" : "27 Şubat Cumartesi"
+            },
+            {   
+                
+                "speakers":"Python Temelleri #2",
+                "date" : "2 Mart Salı"
+            },
+            {   
+                
+                "speakers":"Python Temelleri #3",
+                "date" : "4 Mart Perşembe"
+            },
+            {   
+                
+                "speakers":"Python Kütüphaneleri (Numpy)",
+                "date" : "6 Mart Cumartesi"
+            },
+            {   
+                
+                "speakers":"Python Kütüphaneleri (Pandas)",
+                "date" : "9 Mart Salı"
+                
+            },
+            {   
+                
+                "speakers":"Python Kütüphaneleri (Matplotlib)",
+                "date" : "11 Mart Perşembe"
+            }
+        ],
+        "time1": true ,
+        "time2":false,
         "speaker" : [
             
             {   
@@ -184,18 +220,20 @@
         "id":1,
         "topicId" : "AiSummit",
         "desc":"Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz.",
-        "img":"",
+        "img":"./img/summit.jpg",
+        "time1": false ,
+        "time2":true,
         "campInfo" : [
                         
-            {
-                "text":"mantığı ve işleyişi",
+            {"icon":"fas fa-cogs fa-5x",
+                "text":"Mantığı ve işleyişi",
                 "subText" : "Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz."
             },
-            {
+            {"icon":"fas fa-comments fa-5x",
                 "text":"6 Oturum",
                 "subText" : "Birbirinden değerli konuşmacıların sunum yapacağı 6 oturum"
             },
-            {
+            {"icon":"fas fa-certificate fa-5x",
                 "text":"Katılım Sertifikası",
                 "subText" : "5 oturuma katılan katılımcılara katılım sertifikası "
             }
@@ -328,6 +366,39 @@
             "website":"#"
             }
         ],
+        "events" : [
+            
+            {   
+                "speakers":"Konuşmacı #1",
+                "date" : "13:10"
+            },
+            {   
+                
+                "speakers":"Konuşmacı #2",
+                "date" : "14:00"
+            },
+            {   
+                
+                "speakers":"Konuşmacı #3",
+                "date" : "15:00"
+            },
+            {   
+                
+                "speakers":"Konuşmacı #4",
+                "date" : "16:00"
+            },
+            {   
+                
+                "speakers":"Konuşmacı #5",
+                "date" : "17:00"
+                
+            },
+            {   
+                
+                "speakers":"Konuşmacı #6",
+                "date" : "18:00"
+            }
+        ],
         "contact":[
             
             {   
@@ -362,18 +433,20 @@
         "id":2,
         "topicId" : "Tensorflow",
         "desc":"Katılımcılarımızın AI & ML dünyasına giriş yapmasını ve belirli bir yeterliliğe ulaşmasını amaçlıyoruz.",
-        "img":"",
+        "img":"./img/tensor.jpeg",
+        "time1": false ,
+        "time2":false,
         "campInfo" : [
                         
-            {
+            {   "icon":"fas fa-volume-up fa-5x",
                 "text":"Türkiye'de tanınan konuşmacılar",
                 "subText" : "Türkiye'de Yapay zeka ve Makine öğrenmesi alanında uzmanlaşmış konuşmacılar "
             },
-            {
+            {   "icon":"fas fa-comments fa-5x",
                 "text":"9 Etkinlik",
                 "subText" : "23 Mart ve 8 nisan tarihleri arasında yapılacak olan etkinlikler"
             },
-            {
+            {   "icon":"fas fa-certificate fa-5x",
                 "text":"Başarı Sertifikası",
                 "subText" : "Bu kampı başarı ile tamamlayan kişilere Google Developers onaylı sertifika verilecek."
             }
@@ -504,6 +577,58 @@
             
             "link":"/img/Sponsor logoları/Lodos.png",
             "website":"#"
+            }
+        ],
+        "events" : [
+            
+
+
+
+
+
+
+
+
+
+            {   
+                "speakers":"Tensorflow #1",
+                "date" : "25 Mart Perşembe"
+            },
+            {   
+                
+                "speakers":"Tensorflow #2",
+                "date" : "27 Mart Cumartesi"
+            },
+            {   
+                
+                "speakers":"Tensorflow #3",
+                "date" : "30 Mart Salı"
+            },
+            {   
+                
+                "speakers":"Tensorflow #4",
+                "date" : "27 Mart Cumartesi"
+            },
+            {   
+                
+                "speakers":"Tensorflow #5",
+                "date" : "1 Nisan Perşembe"
+                
+            },
+            {   
+                
+                "speakers":"Tensorflow #6",
+                "date" : "3 Nisan Cumartesi"
+            },
+            {   
+                
+                "speakers":"Tensorflow #6",
+                "date" : "6 Nisan Salı"
+            },
+            {   
+                
+                "speakers":"Tensorflow #6",
+                "date" : "8 Nisan Perşembe"
             }
         ],
         "contact":[

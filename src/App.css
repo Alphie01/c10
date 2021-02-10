@@ -43,7 +43,17 @@
   overflow-y: scroll;
   box-shadow: 0 5px 5px 0  rgba(255, 255, 255, 0.596);
 }
-
+.mobile_main_screen{
+  margin: 10vh 10vh;
+  width: 90vw;
+  height: 80vh;
+  background-color: #3d3d3d;
+  overflow-y: scroll;
+  box-shadow: 0 5px 5px 0  rgba(255, 255, 255, 0.596);
+}
+.display_none{
+  display: none;
+}
 .nav{
   width: 20vw;
   height: 100vh;
@@ -155,10 +165,11 @@
 .contact i{
   cursor: pointer;
   opacity: .3;
+  transition: .5;
   color: white;
 }
 .contact i:hover{
-  
+  transition: .5;
   opacity: 1;
 }
 .logos{
@@ -171,4 +182,18 @@
 }
 .logos img{
   width: 10vw;
+}
+.calenders{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.calenders h4{
+  text-align: right ;
+  color: #f98909;
+}
+.height_50 img{
+  height: 35vh;
+  width: 25vw;
+  opacity: .5;
 }
