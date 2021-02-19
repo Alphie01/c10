@@ -39,7 +39,7 @@ function Nav() {
     
                     <div className="boxs">
                         <div className="box1">
-                            <img src="./img/aılogs_python.png" alt="" srcset=""/>
+                            <img src="./img/Aılogs_python.png" alt="" srcset=""/>
                         </div>
                         <div className="box2 bg_yellow bs_yellow">
                             <h1>Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden olan Numpy, Pandas ve Matplotlib'i öğretmeyi amaçlıyoruz</h1>
@@ -49,7 +49,7 @@ function Nav() {
     
                     <div className="boxs">
                         <div className="box1">
-                            <img src="./img/aılogs_summit.png" alt="" srcset=""/>
+                            <img src="./img/Aılogs_summit.png" alt="" srcset=""/>
                         </div>
                         <div className="box2 bg_green bs_green">
                             <h1>Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz.</h1>
