@@ -27,164 +27,56 @@
             
             {   
                 "speakers":"Python Temelleri #1",
-                "date" : "27 Şubat Cumartesi"
+                "date" : "27 Şubat Cumartesi","talk":"Doğancan Mavideniz"
             },
             {   
                 
-                "speakers":"Python Temelleri #2",
-                "date" : "2 Mart Salı"
+                "speakers":"Python Temelleri  #2",
+                "date" : "2 Mart Salı","talk":"Doğancan Mavideniz"
             },
             {   
                 
-                "speakers":"Python Temelleri #3",
-                "date" : "4 Mart Perşembe"
+                "speakers":"Python Temelleri  #3",
+                "date" : "4 Mart Perşembe","talk":"Doğancan Mavideniz"
             },
             {   
                 
                 "speakers":"Python Kütüphaneleri (Numpy)",
-                "date" : "6 Mart Cumartesi"
+                "date" : "6 Mart Cumartesi","talk":"Kaan Berke Uğurlar"
             },
             {   
                 
                 "speakers":"Python Kütüphaneleri (Pandas)",
-                "date" : "9 Mart Salı"
+                "date" : "9 Mart Salı","talk":"Kaan Berke Uğurlar"
                 
             },
             {   
                 
                 "speakers":"Python Kütüphaneleri (Matplotlib)",
-                "date" : "11 Mart Perşembe"
+                "date" : "11 Mart Perşembe","talk":"Kaan Berke Uğurlar"
             }
         ],
         "time1": true ,
         "time2":false,
         "speaker" : [
-            
             {   
-                "img":"./img/erkek.jpg",
-                "name":"John Doe",
-                "title" : "Python Developer"
+                "img":"./img/Doğancan.jpeg",
+                "name":"Doğancan Mavideniz"
+                
             },
             {   
-                "img":"./img/kadın.jpg",
-                "name":"Jenie Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Sierra Doe",
-                "title" : "Python Developer"
-            },{   
-                "img":"./img/erkek.jpg",
-                "name":"John Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Jenie Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Sierra Doe",
-                "title" : "Python Developer"
+                "img":"./img/Kaan.jpeg",
+                "name":"Kaan Berke Uğurlar"
+                
             }
         ],
         "sponsor":[
             
-            {   
-                "id": 1,
-                "name": "Google Developers",
-                
-                "link":"/img/Sponsor logoları/gdev.png",
-                "website":"https://developers.google.com/"
-            },
             
-            {
-            "id": 2,
-            "name": "ServerPlus",
-            
-            "link":"/img/Sponsor logoları/server2.png",
-            "website":"https://www.serverplus.com.tr/"
-            },
-            {
-            "id": 3,
-            "name": "Pusula",
-            
-            "link":"/img/Sponsor logoları/pusula/pusula.png",
-            "website":"https://www.pusulakitaplik.com/"
-            },
-            {
-            "id": 4,
-            "name": "Domino's",
-            
-            "link":"/img/Sponsor logoları/Dominos.png",
-            "website":"#"
-            },
-            {
-            "id": 5,
-            "name": "Codit Cloud",
-            
-            "link":"/img/Sponsor logoları/Condit.png",
-            "website":"http://www.coditcloud.com/"
-            
-            }
-            ,
-            {
-            "id": 6,
-            "name": "Lodos",
-            
-            "link":"/img/Sponsor logoları/Lodos.png",
-            "website":"#"
-            }
         ],
         "partner":[
             
-            {   
-                "id": 1,
-                "name": "Google Developers",
-                
-                "link":"/img/Sponsor logoları/gdev.png",
-                "website":"https://developers.google.com/"
-            },
             
-            {
-            "id": 2,
-            "name": "ServerPlus",
-            
-            "link":"/img/Sponsor logoları/server2.png",
-            "website":"https://www.serverplus.com.tr/"
-            },
-            {
-            "id": 3,
-            "name": "Pusula",
-            
-            "link":"/img/Sponsor logoları/pusula/pusula.png",
-            "website":"https://www.pusulakitaplik.com/"
-            },
-            {
-            "id": 4,
-            "name": "Domino's",
-            
-            "link":"/img/Sponsor logoları/Dominos.png",
-            "website":"#"
-            },
-            {
-            "id": 5,
-            "name": "Codit Cloud",
-            
-            "link":"/img/Sponsor logoları/Condit.png",
-            "website":"http://www.coditcloud.com/"
-            
-            }
-            ,
-            {
-            "id": 6,
-            "name": "Lodos",
-            
-            "link":"/img/Sponsor logoları/Lodos.png",
-            "website":"#"
-            }
         ],
         "contact":[
             
@@ -192,27 +84,23 @@
                 "id": 1,
                 "name": "fab fa-instagram fa-10x",
                 
-                "link":""
+                "link":"https://www.instagram.com/gdgcloudbursa"
 
             },
             
-            {
-            "id": 2,
-            "name": "fab fa-facebook fa-10x",
-            
-            "link":"/img/Sponsor logoları/server2.png"
-            },
+
             {
             "id": 3,
             "name": "fab fa-twitter fa-10x",
             
-            "link":"/img/Sponsor logoları/pusula/pusula.png"
+
+            "link":"https://twitter.com/GDGCloudBursa"
             },
             {
             "id": 4,
             "name": "fab fa-linkedin fa-10x",
             
-            "link":"/img/Sponsor logoları/Dominos.png"
+            "link":"https://www.linkedin.com/company/gdgcloudbursa/"
             }
         ]
     },
@@ -241,130 +129,17 @@
         "speaker" : [
             
             {   
-                "img":"./img/erkek.jpg",
-                "name":"John Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Jenie Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Sierra Doe",
-                "title" : "Python Developer"
-            },{   
-                "img":"./img/erkek.jpg",
-                "name":"John Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Jenie Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Sierra Doe",
-                "title" : "Python Developer"
+                
+                "name":"Çok Yakında"
+                
             }
         ],
         "sponsor":[
             
-            {   
-                "id": 1,
-                "name": "Google Developers",
-                
-                "link":"/img/Sponsor logoları/gdev.png",
-                "website":"https://developers.google.com/"
-            },
-            
-            {
-            "id": 2,
-            "name": "ServerPlus",
-            
-            "link":"/img/Sponsor logoları/server2.png",
-            "website":"https://www.serverplus.com.tr/"
-            },
-            {
-            "id": 3,
-            "name": "Pusula",
-            
-            "link":"/img/Sponsor logoları/pusula/pusula.png",
-            "website":"https://www.pusulakitaplik.com/"
-            },
-            {
-            "id": 4,
-            "name": "Domino's",
-            
-            "link":"/img/Sponsor logoları/Dominos.png",
-            "website":"#"
-            },
-            {
-            "id": 5,
-            "name": "Codit Cloud",
-            
-            "link":"/img/Sponsor logoları/Condit.png",
-            "website":"http://www.coditcloud.com/"
-            
-            }
-            ,
-            {
-            "id": 6,
-            "name": "Lodos",
-            
-            "link":"/img/Sponsor logoları/Lodos.png",
-            "website":"#"
-            }
         ],
         "partner":[
             
-            {   
-                "id": 1,
-                "name": "Google Developers",
-                
-                "link":"/img/Sponsor logoları/gdev.png",
-                "website":"https://developers.google.com/"
-            },
             
-            {
-            "id": 2,
-            "name": "ServerPlus",
-            
-            "link":"/img/Sponsor logoları/server2.png",
-            "website":"https://www.serverplus.com.tr/"
-            },
-            {
-            "id": 3,
-            "name": "Pusula",
-            
-            "link":"/img/Sponsor logoları/pusula/pusula.png",
-            "website":"https://www.pusulakitaplik.com/"
-            },
-            {
-            "id": 4,
-            "name": "Domino's",
-            
-            "link":"/img/Sponsor logoları/Dominos.png",
-            "website":"#"
-            },
-            {
-            "id": 5,
-            "name": "Codit Cloud",
-            
-            "link":"/img/Sponsor logoları/Condit.png",
-            "website":"http://www.coditcloud.com/"
-            
-            }
-            ,
-            {
-            "id": 6,
-            "name": "Lodos",
-            
-            "link":"/img/Sponsor logoları/Lodos.png",
-            "website":"#"
-            }
         ],
         "events" : [
             
@@ -405,27 +180,23 @@
                 "id": 1,
                 "name": "fab fa-instagram fa-10x",
                 
-                "link":""
+                "link":"https://www.instagram.com/gdgcloudbursa"
 
             },
             
-            {
-            "id": 2,
-            "name": "fab fa-facebook fa-10x",
-            
-            "link":"/img/Sponsor logoları/server2.png"
-            },
+
             {
             "id": 3,
             "name": "fab fa-twitter fa-10x",
             
-            "link":"/img/Sponsor logoları/pusula/pusula.png"
+
+            "link":"https://twitter.com/GDGCloudBursa"
             },
             {
             "id": 4,
             "name": "fab fa-linkedin fa-10x",
             
-            "link":"/img/Sponsor logoları/Dominos.png"
+            "link":"https://www.linkedin.com/company/gdgcloudbursa/"
             }
         ]
     },
@@ -485,99 +256,11 @@
         ],
         "sponsor":[
             
-            {   
-                "id": 1,
-                "name": "Google Developers",
-                
-                "link":"/img/Sponsor logoları/gdev.png",
-                "website":"https://developers.google.com/"
-            },
             
-            {
-            "id": 2,
-            "name": "ServerPlus",
-            
-            "link":"/img/Sponsor logoları/server2.png",
-            "website":"https://www.serverplus.com.tr/"
-            },
-            {
-            "id": 3,
-            "name": "Pusula",
-            
-            "link":"/img/Sponsor logoları/pusula/pusula.png",
-            "website":"https://www.pusulakitaplik.com/"
-            },
-            {
-            "id": 4,
-            "name": "Domino's",
-            
-            "link":"/img/Sponsor logoları/Dominos.png",
-            "website":"#"
-            },
-            {
-            "id": 5,
-            "name": "Codit Cloud",
-            
-            "link":"/img/Sponsor logoları/Condit.png",
-            "website":"http://www.coditcloud.com/"
-            
-            }
-            ,
-            {
-            "id": 6,
-            "name": "Lodos",
-            
-            "link":"/img/Sponsor logoları/Lodos.png",
-            "website":"#"
-            }
         ],
         "partner":[
             
-            {   
-                "id": 1,
-                "name": "Google Developers",
-                
-                "link":"/img/Sponsor logoları/gdev.png",
-                "website":"https://developers.google.com/"
-            },
-            
-            {
-            "id": 2,
-            "name": "ServerPlus",
-            
-            "link":"/img/Sponsor logoları/server2.png",
-            "website":"https://www.serverplus.com.tr/"
-            },
-            {
-            "id": 3,
-            "name": "Pusula",
-            
-            "link":"/img/Sponsor logoları/pusula/pusula.png",
-            "website":"https://www.pusulakitaplik.com/"
-            },
-            {
-            "id": 4,
-            "name": "Domino's",
-            
-            "link":"/img/Sponsor logoları/Dominos.png",
-            "website":"#"
-            },
-            {
-            "id": 5,
-            "name": "Codit Cloud",
-            
-            "link":"/img/Sponsor logoları/Condit.png",
-            "website":"http://www.coditcloud.com/"
-            
-            }
-            ,
-            {
-            "id": 6,
-            "name": "Lodos",
-            
-            "link":"/img/Sponsor logoları/Lodos.png",
-            "website":"#"
-            }
+
         ],
         "events" : [
             
@@ -590,45 +273,46 @@
 
 
 
-            {   
+            {   "id":1,
                 "speakers":"Tensorflow #1",
-                "date" : "25 Mart Perşembe"
+                "date" : "25 Mart Perşembe",
+                "talk":""
             },
             {   
-                
+                "id":2,
                 "speakers":"Tensorflow #2",
-                "date" : "27 Mart Cumartesi"
+                "date" : "27 Mart Cumartesi","talk":""
             },
             {   
-                
+                "id":3,
                 "speakers":"Tensorflow #3",
-                "date" : "30 Mart Salı"
+                "date" : "30 Mart Salı","talk":""
             },
             {   
-                
+                "id":4,
                 "speakers":"Tensorflow #4",
-                "date" : "27 Mart Cumartesi"
+                "date" : "27 Mart Cumartesi","talk":""
             },
             {   
-                
+                "id":5,
                 "speakers":"Tensorflow #5",
-                "date" : "1 Nisan Perşembe"
+                "date" : "1 Nisan Perşembe","talk":""
                 
             },
             {   
-                
+                "id":6,
                 "speakers":"Tensorflow #6",
-                "date" : "3 Nisan Cumartesi"
+                "date" : "3 Nisan Cumartesi","talk":""
             },
             {   
-                
-                "speakers":"Tensorflow #6",
-                "date" : "6 Nisan Salı"
+                "id":7,
+                "speakers":"Tensorflow #7",
+                "date" : "6 Nisan Salı","talk":""
             },
             {   
-                
-                "speakers":"Tensorflow #6",
-                "date" : "8 Nisan Perşembe"
+                "id":8,
+                "speakers":"Tensorflow #8",
+                "date" : "8 Nisan Perşembe","talk":""
             }
         ],
         "contact":[
@@ -637,27 +321,23 @@
                 "id": 1,
                 "name": "fab fa-instagram fa-10x",
                 
-                "link":""
+                "link":"https://www.instagram.com/gdgcloudbursa"
 
             },
             
-            {
-            "id": 2,
-            "name": "fab fa-facebook fa-10x",
-            
-            "link":"/img/Sponsor logoları/server2.png"
-            },
+
             {
             "id": 3,
             "name": "fab fa-twitter fa-10x",
             
-            "link":"/img/Sponsor logoları/pusula/pusula.png"
+
+            "link":"https://twitter.com/GDGCloudBursa"
             },
             {
             "id": 4,
             "name": "fab fa-linkedin fa-10x",
             
-            "link":"/img/Sponsor logoları/Dominos.png"
+            "link":"https://www.linkedin.com/company/gdgcloudbursa/"
             }
         ]
     }
