@@ -2,7 +2,7 @@
   turuncu kodu :f98909
   background: 252827 
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .App{
   margin: 0;
   padding: 0;
@@ -173,7 +173,7 @@ table{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-end;
   
 }
 
@@ -234,6 +234,10 @@ table{
 }
 .speaker h4{
   color: #f98909;
+}
+.speaker h1{
+  color: white;
+  font-size: 3vw;
 }
 .speaker h5{
   color: white;
@@ -370,8 +374,8 @@ table{
   color: white;
 }
 .mobile_main .mobil_img{
-  width: 75vw;
-  height: 50vw;
+  width: 60vw;
+  height: 40vw;
 }
 .mobile_main .mobil__speaker_img{
   width: 50vw;
@@ -380,4 +384,19 @@ table{
 }
 .mobile_main .table h3{
   font-size: 18px;
+}
+.fram{
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+.mobil_fram{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

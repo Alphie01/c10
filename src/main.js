@@ -21,7 +21,7 @@ function Main() {
     useEffect(() => {
         if(topicId==="Python"){
             setPagenum(0);
-        }else if(topicId==="AiSummit"){
+        }else if(topicId==="AiMlSummit"){
             setPagenum(1);
         }else if(topicId==="Tensorflow"){
             setPagenum(2);
@@ -38,15 +38,10 @@ function Main() {
                                                     <h2>{topicId}</h2>
                                                 </div>
                                                 <div className="buttons">
-                                                    <div className="button yellow" onClick={(e)=>{
-                                                        e.preventDefault();
-                                                        setanimatedScren(true)
-                                                        setClosedScreen(true)
-                                                    }}></div>
+                                                    
                                                     <Link to={"/"}>
                                                         <div className="button red" onClick={(e)=>{
                                                         }}>
-                                                            X
                                                         </div>
                                                     </Link>
                                                 </div>
@@ -106,7 +101,7 @@ function Main() {
                     setMain(false)
                 }}>
                     <div className="dot"></div>
-                    <h2>Kamp Partnerlerı</h2>
+                    <h2>Yayın Akışı</h2>
                 </div>
                 <div className={Contact?"navlink active":"navlink"} onClick={(e)=>{
                     e.preventDefault()
@@ -315,22 +310,17 @@ function Main() {
                                                                                     {
                                                                                         pages[Pagenum].partner.map(adds=>(
                                                                                                 
-                                                                                                    <div className="col-lg-4 col-sm-12 mt-5">
+                                                                                                    <div className="col-lg-6 col-sm-12 mt-5">
                                                                                                         {
-                                                                                                            <Link>
+                                                                                                            <a href={adds.videoSRC} target="_blank">
                                                                                                                 <div>
-                                                                                                                    <img src={adds.img}></img>
-                                                                                                                    <h4>
-                                                                                                                        {
-                                                                                                                            adds.name
-                                                                                                                        }
-                                                                                                                    </h4>
-    
+                                                                                                                <div className="mobil_fram"></div>
+                                                                                                                <iframe width="300" height="200" src={adds.src} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                                                                                 </div>
-                                                                                                            </Link>
+                                                                                                            </a>
                                                                                                         }
                                                                                                     </div>
-                                                                                                
+                                                                                                    
                                                                                                 ))
                                                                                     }
                                                                                 </div>
@@ -340,7 +330,7 @@ function Main() {
                                                                                 
                                                                                     {
                                                                                         pages[Pagenum].contact.map(contact=>(
-                                                                                            <a href={contact.link}>
+                                                                                            <a href={contact.link} target="_blank">
                                                                                                 <i className={contact.name}></i>
                                                                                             </a>
                                                                                         ))
@@ -375,15 +365,9 @@ function Main() {
                                                     <h2>{topicId}</h2>
                                                 </div>
                                                 <div className="buttons">
-                                                    <div className="button yellow" onClick={(e)=>{
-                                                        e.preventDefault();
-                                                        setanimatedScren(true)
-                                                        setClosedScreen(true)
-                                                    }}></div>
                                                     <Link to={"/"}>
                                                         <div className="button red" onClick={(e)=>{
                                                         }}>
-                                                            X
                                                         </div>
                                                     </Link>
                                                 </div>
@@ -434,7 +418,7 @@ function Main() {
                     setMain(false)
                 }}>
                     <div className="dot"></div>
-                    <h2>Kamp Partnerlerı</h2>
+                    <h2>Yayın Akışı</h2>
                 </div>
                 <div className={Contact?"navlink active":"navlink"} onClick={(e)=>{
                     e.preventDefault()
@@ -582,7 +566,8 @@ function Main() {
                                                                         <div className="col-lg-6 col-sm-12 mt-5">
                                                                             {
                                                                                 
-                                                                                    <div>
+                                                                                    adds.name?(
+                                                                                        <div>
                                                                                         <img src={adds.img}></img>
                                                                                         <h4>
                                                                                             {
@@ -595,6 +580,11 @@ function Main() {
                                                                                             }
                                                                                         </h5>
                                                                                     </div>
+                                                                                    ):(
+                                                                                        <h1>
+                                                                                            Çok Yakında....
+                                                                                        </h1>
+                                                                                    )
                                                                                 
                                                                             }
                                                                         </div>
@@ -616,17 +606,23 @@ function Main() {
                                                                                     
                                                                                         <div className="col-lg-4 col-sm-12 mt-5">
                                                                                             {
-                                                                                                <Link>
-                                                                                                    <div>
-                                                                                                        <img src={adds.img}></img>
-                                                                                                        <h4>
-                                                                                                            {
-                                                                                                                adds.name
-                                                                                                            }
-                                                                                                        </h4>
-    
-                                                                                                    </div>
-                                                                                                </Link>
+                                                                                                adds.name?(
+                                                                                                    <Link>
+                                                                                                        <div>
+                                                                                                            <img src={adds.img}></img>
+                                                                                                            <h4>
+                                                                                                                {
+                                                                                                                    adds.name
+                                                                                                                }
+                                                                                                            </h4>
+        
+                                                                                                        </div>
+                                                                                                    </Link>
+                                                                                                ):(
+                                                                                                    <h1>
+                                                                                                        Çok Yakında....
+                                                                                                    </h1>
+                                                                                                )
                                                                                             }
                                                                                         </div>
                                                                                     
@@ -641,22 +637,19 @@ function Main() {
                                                                             <div className="container mt-5 sponsor">
                                                                                 <div className="row mt-5">
                                                                         
+                                                                                
+
                                                                                     {
                                                                                         pages[Pagenum].partner.map(adds=>(
                                                                                                 
-                                                                                                    <div className="col-lg-4 col-sm-12 mt-5">
+                                                                                                    <div className="col-lg-6 col-sm-12 mt-5">
                                                                                                         {
-                                                                                                            <Link>
+                                                                                                            <a href={adds.videoSRC} target="_blank">
                                                                                                                 <div>
-                                                                                                                    <img src={adds.img}></img>
-                                                                                                                    <h4>
-                                                                                                                        {
-                                                                                                                            adds.name
-                                                                                                                        }
-                                                                                                                    </h4>
-    
+                                                                                                                <div className="fram"></div>
+                                                                                                                <iframe width="500" height="300" src={adds.src} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                                                                                 </div>
-                                                                                                            </Link>
+                                                                                                            </a>
                                                                                                         }
                                                                                                     </div>
                                                                                                 
@@ -669,7 +662,7 @@ function Main() {
                                                                                 
                                                                                     {
                                                                                         pages[Pagenum].contact.map(contact=>(
-                                                                                            <a href={contact.link}>
+                                                                                            <a href={contact.link} target="_blank">
                                                                                                 <i className={contact.name}></i>
                                                                                             </a>
                                                                                         ))

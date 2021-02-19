@@ -72,10 +72,34 @@
         ],
         "sponsor":[
             
-            
+            {
+
+            }
         ],
         "partner":[
-            
+            {
+                "id":0,
+                "src":"https://www.youtube.com/embed/BYgQFGWQMPM",
+                "videoSRC":"https://www.youtube.com/watch?v=BYgQFGWQMPM&list=PLWRi-ef3zHbGAukYYuXzFNKRDjMxAKtGM&index=1&ab_channel=GDGCloudBursa"
+            },
+            {
+                "id":1,
+                "src":"https://www.youtube.com/embed/Z72l8jBHIc8","videoSRC":"https://www.youtube.com/watch?v=Z72l8jBHIc8&list=PLWRi-ef3zHbGAukYYuXzFNKRDjMxAKtGM&index=2&ab_channel=GDGCloudBursa"
+            },{
+                "id":2,
+                "src":"https://www.youtube.com/embed/ffK7L_R1sNU","videoSRC":"https://www.youtube.com/watch?v=ffK7L_R1sNU&list=PLWRi-ef3zHbGAukYYuXzFNKRDjMxAKtGM&index=3&ab_channel=GDGCloudBursa"
+            },
+            {
+                "id":3,
+                "src":"https://www.youtube.com/embed/fLdKvLYzKik","videoSRC":"https://www.youtube.com/watch?v=fLdKvLYzKik&list=PLWRi-ef3zHbGAukYYuXzFNKRDjMxAKtGM&index=4&ab_channel=GDGCloudBursa"
+            },{
+                "id":4,
+                "src":"https://www.youtube.com/embed/CDHLyIxuVsU","videoSRC":"https://www.youtube.com/watch?v=CDHLyIxuVsU&list=PLWRi-ef3zHbGAukYYuXzFNKRDjMxAKtGM&index=5&ab_channel=GDGCloudBursa"
+            },
+            {
+                "id":5,
+                "src":"https://www.youtube.com/embed/GXAU3iDW518","videoSRC":"https://www.youtube.com/watch?v=CDHLyIxuVsU&list=PLWRi-ef3zHbGAukYYuXzFNKRDjMxAKtGM&index=6&ab_channel=GDGCloudBursa"
+            }
             
         ],
         "contact":[
@@ -130,12 +154,14 @@
             
             {   
                 
-                "name":"Çok Yakında"
+                
                 
             }
         ],
         "sponsor":[
-            
+            {
+
+            }
         ],
         "partner":[
             
@@ -144,34 +170,34 @@
         "events" : [
             
             {   
-                "speakers":"Konuşmacı #1",
-                "date" : "13:10"
+                "speakers":"Çok Yakında",
+                "date" : "-"
             },
             {   
                 
-                "speakers":"Konuşmacı #2",
-                "date" : "14:00"
+                "speakers":"Çok Yakında",
+                "date" : "-"
             },
             {   
                 
-                "speakers":"Konuşmacı #3",
-                "date" : "15:00"
+                "speakers":"Çok Yakında",
+                "date" : "-"
             },
             {   
                 
-                "speakers":"Konuşmacı #4",
-                "date" : "16:00"
+                "speakers":"Çok Yakında",
+                "date" : "-"
             },
             {   
                 
-                "speakers":"Konuşmacı #5",
-                "date" : "17:00"
+                "speakers":"Çok Yakında",
+                "date" : "-"
                 
             },
             {   
                 
-                "speakers":"Konuşmacı #6",
-                "date" : "18:00"
+                "speakers":"Çok Yakında",
+                "date" : "-"
             }
         ],
         "contact":[
@@ -210,7 +236,7 @@
         "campInfo" : [
                         
             {   "icon":"fas fa-volume-up fa-5x",
-                "text":"Türkiye'de tanınan konuşmacılar",
+                "text":"Alanında uzman konuşmacılar",
                 "subText" : "Türkiye'de Yapay zeka ve Makine öğrenmesi alanında uzmanlaşmış konuşmacılar "
             },
             {   "icon":"fas fa-comments fa-5x",
@@ -225,38 +251,13 @@
         "speaker" : [
             
             {   
-                "img":"./img/erkek.jpg",
-                "name":"John Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Jenie Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Sierra Doe",
-                "title" : "Python Developer"
-            },{   
-                "img":"./img/erkek.jpg",
-                "name":"John Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Jenie Doe",
-                "title" : "Python Developer"
-            },
-            {   
-                "img":"./img/kadın.jpg",
-                "name":"Sierra Doe",
-                "title" : "Python Developer"
+
+
             }
         ],
         "sponsor":[
             
-            
+            {}
         ],
         "partner":[
             
@@ -274,45 +275,45 @@
 
 
             {   "id":1,
-                "speakers":"Tensorflow #1",
-                "date" : "25 Mart Perşembe",
+                "speakers":"Çok Yakında",
+                "date" : "-",
                 "talk":""
             },
             {   
                 "id":2,
-                "speakers":"Tensorflow #2",
-                "date" : "27 Mart Cumartesi","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
             },
             {   
                 "id":3,
-                "speakers":"Tensorflow #3",
-                "date" : "30 Mart Salı","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
             },
             {   
                 "id":4,
-                "speakers":"Tensorflow #4",
-                "date" : "27 Mart Cumartesi","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
             },
             {   
                 "id":5,
-                "speakers":"Tensorflow #5",
-                "date" : "1 Nisan Perşembe","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
                 
             },
             {   
                 "id":6,
-                "speakers":"Tensorflow #6",
-                "date" : "3 Nisan Cumartesi","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
             },
             {   
                 "id":7,
-                "speakers":"Tensorflow #7",
-                "date" : "6 Nisan Salı","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
             },
             {   
                 "id":8,
-                "speakers":"Tensorflow #8",
-                "date" : "8 Nisan Perşembe","talk":""
+                "speakers":"Çok Yakında",
+                "date" : "-","talk":""
             }
         ],
         "contact":[

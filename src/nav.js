@@ -14,7 +14,7 @@ function Nav() {
                         </div>
                     </Link>
                     
-                        <div className="boxs"><Link to={"./AiSummit"}>
+                        <div className="boxs"><Link to={"./AiMlSummit"}>
                             <img src="./img/Aılogs_summit.png" alt="" srcset=""/> </Link>
                         </div>
                    
@@ -53,7 +53,7 @@ function Nav() {
                         </div>
                         <div className="box2 bg_green bs_green">
                             <h1>Katılımcılarımıza yapay zeka ve makine öğrenmesinin mantığını ve işleyişini öğretmeyi amaçlıyoruz.</h1>
-                            <Link to={"./AiSummit"}><h4>Daha fazlası</h4></Link>
+                            <Link to={"./AiMlSummit"}><h4>Daha fazlası</h4></Link>
                         </div>
                     </div>
     
