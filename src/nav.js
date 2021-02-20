@@ -42,7 +42,7 @@ function Nav() {
                             <img src="./img/Aılogs_python.png" alt="" srcset=""/>
                         </div>
                         <div className="box2 bg_yellow bs_yellow">
-                            <h1>Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden olan Numpy, Pandas ve Matplotlib'i öğretmeyi amaçlıyoruz</h1>
+                            <h1>Katılımcılarımıza sıfırdan, Python temelleri ve önemli kütüphanelerden öğretmeyi amaçlıyoruz</h1>
                             <Link to={"./Python"}><h4>Daha fazlası</h4></Link>
                         </div>
                     </div>
