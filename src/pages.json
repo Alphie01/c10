@@ -73,9 +73,39 @@
         "sponsor":[
             
             {
-
+                "name":"img_25vw",
+                "imgSrc" : "./img/logos/logo.png",
+                "link":"https://www.instagram.com/koddunyasi/?hl=en"
+            },{
+                "name":"img_12vw",
+                "imgSrc" : "./img/logos/jetbrains.png",
+                "link":"https://www.jetbrains.com/"
+            },{
+                "name":"img_17vw",
+                "imgSrc" : "./img/logos/kod.png",
+                "link":"https://www.instagram.com/kodrehberi/?hl=en"
+            },{
+                "name":"img_25vw",
+                "imgSrc" : "./img/logos/robot.png",
+                "link":"https://www.robotistan.com/"
+            },{
+                "name":"img_25vw",
+                "imgSrc" : "./img/logos/dsc_btu.png",
+                "link":"#"
+            },{
+                "name":"img_25vw",
+                "imgSrc" : "./img/logos/dsc_uludag.png",
+                "link":"#"
+                },{
+                "name":"img_25vw",
+                "imgSrc" : "./img/logos/gdg_bursa.png",
+                "link":"#"
+            },{
+                "name":"img_25vw",
+                "imgSrc" : "./img/logos/wtm_bursa.png",
+                "link":"#"
             }
-        ],
+        ],  
         "partner":[
             {
                 "id":0,
@@ -160,7 +190,7 @@
         ],
         "sponsor":[
             {
-
+                
             }
         ],
         "partner":[

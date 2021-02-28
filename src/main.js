@@ -275,24 +275,18 @@ function Main() {
                                                         {
                                                             Sponsor?(
                                                                 <div className="container mt-5 sponsor">
-                                                                    <div className="row mt-5">
+                                                                    <div className="row mt-5 sponsor_row_mobile">
                                                             
                                                                         {
                                                                             pages[Pagenum].sponsor.map(adds=>(
                                                                                     
-                                                                                        <div className="col-lg-4 col-sm-12 mt-5">
+                                                                                        <div className="col-12 mt-5">
                                                                                             {
-                                                                                                <Link>
-                                                                                                    <div>
-                                                                                                        <img src={adds.img}></img>
-                                                                                                        <h4>
-                                                                                                            {
-                                                                                                                adds.name
-                                                                                                            }
-                                                                                                        </h4>
-    
-                                                                                                    </div>
-                                                                                                </Link>
+                                                                                                <a href={adds.link} target="_blank">
+                                                                                                <div className={adds.name+"_mobile"}>
+                                                                                                    <img src={adds.imgSrc}></img>
+                                                                                                </div>
+                                                                                            </a>
                                                                                             }
                                                                                         </div>
                                                                                     
@@ -599,25 +593,19 @@ function Main() {
                                                         {
                                                             Sponsor?(
                                                                 <div className="container mt-5 sponsor">
-                                                                    <div className="row mt-5">
+                                                                    <div className="row mt-5 sponsor_row">
                                                             
                                                                         {
                                                                             pages[Pagenum].sponsor.map(adds=>(
                                                                                     
-                                                                                        <div className="col-lg-4 col-sm-12 mt-5">
+                                                                                        <div className="col-lg-6 col-sm-12 mt-5">
                                                                                             {
                                                                                                 adds.name?(
-                                                                                                    <Link>
-                                                                                                        <div>
-                                                                                                            <img src={adds.img}></img>
-                                                                                                            <h4>
-                                                                                                                {
-                                                                                                                    adds.name
-                                                                                                                }
-                                                                                                            </h4>
-        
+                                                                                                    <a href={adds.link} target="_blank">
+                                                                                                        <div className={adds.name}>
+                                                                                                            <img src={adds.imgSrc}></img>
                                                                                                         </div>
-                                                                                                    </Link>
+                                                                                                    </a>
                                                                                                 ):(
                                                                                                     <h1>
                                                                                                         Çok Yakında....
